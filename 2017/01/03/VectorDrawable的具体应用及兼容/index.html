@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    
+
+    <title>
+      VectorDrawable的具体应用及兼容 | 人类是悬挂在自己编织的意义之网上的动物 
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+      <meta name="author" content="John Doe">
+    
+    
+
+    <meta name="description" content="1.&amp;#x4EC0;&amp;#x4E48;&amp;#x662F;VectorDrawable&amp;#x4ECE;5.0(API&amp;#x7B49;&amp;#x7EA7;21)&amp;#x5F00;&amp;#x59CB;&amp;#xFF0C;android&amp;#x5F00;&amp;#x59CB;&amp;#x652F;&amp;#x6301;&amp;#x77E2;&amp;#x91CF;&amp;#x56FE;&amp;#x4E86;&amp;#x3002;&amp;#x5173;&amp;#x4E8E;&amp;#x4EC0">
+<meta property="og:type" content="article">
+<meta property="og:title" content="VectorDrawable的具体应用及兼容 | 人类是悬挂在自己编织的意义之网上的动物">
+<meta property="og:url" content="http://xifengstory.com/2017/01/03/VectorDrawable的具体应用及兼容/index.html">
+<meta property="og:site_name" content="人类是悬挂在自己编织的意义之网上的动物">
+<meta property="og:description" content="1.&amp;#x4EC0;&amp;#x4E48;&amp;#x662F;VectorDrawable&amp;#x4ECE;5.0(API&amp;#x7B49;&amp;#x7EA7;21)&amp;#x5F00;&amp;#x59CB;&amp;#xFF0C;android&amp;#x5F00;&amp;#x59CB;&amp;#x652F;&amp;#x6301;&amp;#x77E2;&amp;#x91CF;&amp;#x56FE;&amp;#x4E86;&amp;#x3002;&amp;#x5173;&amp;#x4E8E;&amp;#x4EC0">
+<meta property="og:image" content="http://xifengstory.com/2017/01/03/VectorDrawable的具体应用及兼容/VectorDrawable1.png">
+<meta property="og:image" content="http://xifengstory.com/2017/01/03/VectorDrawable的具体应用及兼容/VectorDrawable2.gif">
+<meta property="og:updated_time" content="2017-01-03T05:00:08.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="VectorDrawable的具体应用及兼容 | 人类是悬挂在自己编织的意义之网上的动物">
+<meta name="twitter:description" content="1.&amp;#x4EC0;&amp;#x4E48;&amp;#x662F;VectorDrawable&amp;#x4ECE;5.0(API&amp;#x7B49;&amp;#x7EA7;21)&amp;#x5F00;&amp;#x59CB;&amp;#xFF0C;android&amp;#x5F00;&amp;#x59CB;&amp;#x652F;&amp;#x6301;&amp;#x77E2;&amp;#x91CF;&amp;#x56FE;&amp;#x4E86;&amp;#x3002;&amp;#x5173;&amp;#x4E8E;&amp;#x4EC0">
+<meta name="twitter:image" content="http://xifengstory.com/2017/01/03/VectorDrawable的具体应用及兼容/VectorDrawable1.png">
+    
+    
+    
+      <link rel="icon" type="image/x-icon" href="/favicon.png">
+    
+    <link rel="stylesheet" href="/css/uno.css">
+    <link rel="stylesheet" href="/css/highlight.css">
+    <link rel="stylesheet" href="/css/archive.css">
+    <link rel="stylesheet" href="/css/china-social-icon.css">
+
+</head>
+<body>
+
+    <span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    
+
+<header class="panel-cover panel-cover--collapsed">
+
+
+  <div class="panel-main">
+
+  
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        
+
+        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage">人类是悬挂在自己编织的意义之网上的动物</a></h1>
+        <hr class="panel-cover__divider" />
+
+        
+        <p class="panel-cover__description">
+          西风
+        </p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        
+
+        <div class="navigation-wrapper">
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+
+              
+                
+                <li class="navigation__item"><a href="/#blog" title="" class="blog-button">首页</a></li>
+              
+                
+                <li class="navigation__item"><a href="/about" title="" class="">关于</a></li>
+              
+                
+                <li class="navigation__item"><a href="/archive" title="" class="">归档</a></li>
+              
+
+            </ul>
+          </nav>
+
+          <!-- ----------------------------
+To add a new social icon simply duplicate one of the list items from below
+and change the class in the <i> tag to match the desired social network
+and then add your link to the <a>. Here is a full list of social network
+classes that you can use:
+
+    icon-social-500px
+    icon-social-behance
+    icon-social-delicious
+    icon-social-designer-news
+    icon-social-deviant-art
+    icon-social-digg
+    icon-social-dribbble
+    icon-social-facebook
+    icon-social-flickr
+    icon-social-forrst
+    icon-social-foursquare
+    icon-social-github
+    icon-social-google-plus
+    icon-social-hi5
+    icon-social-instagram
+    icon-social-lastfm
+    icon-social-linkedin
+    icon-social-medium
+    icon-social-myspace
+    icon-social-path
+    icon-social-pinterest
+    icon-social-rdio
+    icon-social-reddit
+    icon-social-skype
+    icon-social-spotify
+    icon-social-stack-overflow
+    icon-social-steam
+    icon-social-stumbleupon
+    icon-social-treehouse
+    icon-social-tumblr
+    icon-social-twitter
+    icon-social-vimeo
+    icon-social-xbox
+    icon-social-yelp
+    icon-social-youtube
+    icon-social-zerply
+    icon-mail
+
+-------------------------------->
+
+<!-- add social info here -->
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay"></div>
+  </div>
+</header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner entry">
+            
+
+<article class="post-container post-container--single">
+
+  <header class="post-header">
+    
+    <h1 class="post-title">VectorDrawable的具体应用及兼容</h1>
+
+    
+
+    <div class="post-meta">
+      <time datetime="2017-01-03" class="post-meta__date date">2017-01-03</time> 
+
+      <span class="post-meta__tags tags">
+
+          
+
+          
+
+      </span>
+    </div>
+    
+    
+
+  </header>
+
+  <section id="post-content" class="article-content post">
+    <h3 id="1-&#x4EC0;&#x4E48;&#x662F;VectorDrawable"><a href="#1-&#x4EC0;&#x4E48;&#x662F;VectorDrawable" class="headerlink" title="1.&#x4EC0;&#x4E48;&#x662F;VectorDrawable"></a>1.&#x4EC0;&#x4E48;&#x662F;VectorDrawable</h3><p>&#x4ECE;5.0(API&#x7B49;&#x7EA7;21)&#x5F00;&#x59CB;&#xFF0C;android&#x5F00;&#x59CB;&#x652F;&#x6301;&#x77E2;&#x91CF;&#x56FE;&#x4E86;&#x3002;&#x5173;&#x4E8E;&#x4EC0;&#x4E48;&#x662F;&#x77E2;&#x91CF;&#x56FE;&#x4EE5;&#x53CA;&#x77E2;&#x91CF;&#x56FE;&#x6709;&#x4EC0;&#x4E48;&#x4F18;&#x7F3A;&#x70B9;&#x4E0D;&#x5728;&#x672C;&#x6587;&#x7684;&#x6D89;&#x53CA;&#x8303;&#x56F4;&#x4E4B;&#x5185;&#xFF0C;&#x5177;&#x4F53;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#x77E2;&#x91CF;&#x56FE;&#x767E;&#x79D1;&#x3002;<br>android&#x91C7;&#x7528;VectorDrawable&#x5BF9;&#x77E2;&#x91CF;&#x56FE;&#x8FDB;&#x884C;&#x652F;&#x6301;&#x3002;</p>
+<h3 id="2-&#x9759;&#x6001;VectorDrawable"><a href="#2-&#x9759;&#x6001;VectorDrawable" class="headerlink" title="2.&#x9759;&#x6001;VectorDrawable"></a>2.&#x9759;&#x6001;VectorDrawable</h3><p>&#x5728;&#x4F7F;&#x7528;&#x4E4B;&#x524D;&#x5148;&#x8981;&#x5B8C;&#x6210;gradle&#x7684;&#x76F8;&#x5173;&#x914D;&#x7F6E;&#x7684;&#x76F8;&#x5173;&#x914D;&#x7F6E;<br>&#x4FEE;&#x6539;appcompat-v7&#x7684;&#x7248;<br><code>compile &apos;com.android.support:appcompat-v7:23.2.0&apos;</code><br>&#x4FEE;&#x6539;gradle&#x914D;&#x7F6E;&#x6587;&#x4EF6;<br>&#x5982;&#x679C;&#x4F60;&#x7684;gradle&#x63D2;&#x4EF6;&#x7684;&#x7248;&#x672C;&#x4E3A;2.0&#x4EE5;&#x4E0B;&#xFF0C;&#x4F60;&#x5E94;&#x8BE5;&#x8FD9;&#x4E48;&#x4FEE;&#x6539;<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">android {</div><div class="line">  defaultConfig {</div><div class="line">    // &#x4E0D;&#x8BA9;gradle&#x81EA;&#x52A8;&#x751F;&#x6210;&#x4E0D;&#x540C;&#x5C4F;&#x5E55;&#x5206;&#x8FA8;&#x7387;&#x7684;png&#x56FE;</div><div class="line">    generatedDensities = []</div><div class="line">  }</div><div class="line"></div><div class="line">  aaptOptions {</div><div class="line">    additionalParameters &quot;--no-version-vectors&quot;</div><div class="line">  }</div><div class="line">}</div></pre></td></tr></table></figure></p>
+<p>&#x5982;&#x679C;&#x4F60;&#x7684;gradle&#x63D2;&#x4EF6;&#x7248;&#x672C;&#x662F;2.0+&#xFF0C;&#x4F60; &#x5E94;&#x8BE5;&#x8FD9;&#x4E48;&#x4FEE;&#x6539;<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">android {</div><div class="line">  defaultConfig {</div><div class="line">    vectorDrawables.useSupportLibrary = true</div><div class="line">  }</div><div class="line">}</div></pre></td></tr></table></figure></p>
+<p>Android&#x4E2D;&#x77E2;&#x91CF;&#x56FE;&#x662F;&#x4EE5;xml&#x6587;&#x6863;&#x7684;&#x5F62;&#x5F0F;&#x5B58;&#x5728;&#x7684;&#xFF0C;&#x50CF;&#x4E0B;&#x9762;&#x8FD9;&#x6837;&#x5C31;&#x5B9A;&#x4E49;&#x4E86;&#x4E00;&#x4E2A;&#x77E2;&#x91CF;&#x56FE;&#xFF0C;&#x91CC;&#x9762;&#x5305;&#x542B;&#x4E86;&#x5173;&#x4E8E;&#x8BE5;&#x77E2;&#x91CF;&#x56FE;&#x7684;&#x6570;&#x636E;&#x4FE1;&#x606F;&#x3002;<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">&lt;!-- res/drawable/arrow.xml --&gt;</div><div class="line">&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;</div><div class="line">        android:width=&quot;24dp&quot;</div><div class="line">        android:height=&quot;24dp&quot;</div><div class="line">        android:viewportHeight=&quot;24.0&quot;</div><div class="line">        android:viewportWidth=&quot;24.0&quot;&gt;</div><div class="line">    &lt;group android:name=&quot;left&quot;&gt;</div><div class="line">        &lt;path</div><div class="line">            android:fillColor=&quot;#FF000000&quot;</div><div class="line">            android:pathData=&quot;M9.01,14L2,14v2h7.01v3L13,15l-3.99,-4v3z&quot;/&gt;</div><div class="line">    &lt;/group&gt;</div><div class="line">    &lt;group android:name=&quot;right&quot;&gt;</div><div class="line">        &lt;path</div><div class="line">            android:fillColor=&quot;#FF000000&quot;</div><div class="line">            android:pathData=&quot;M14.99,13v-3L22,10L22,8h-7.01L14.99,5L11,9l3.99,4z&quot;/&gt;</div><div class="line">    &lt;/group&gt;</div><div class="line">&lt;/vector&gt;</div></pre></td></tr></table></figure></p>
+<p>&#x5B9A;&#x4E49;&#x597D;&#x77E2;&#x91CF;&#x56FE;&#x5F62;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x5411;&#x666E;&#x901A;&#x7684;&#x56FE;&#x5F62;&#x90A3;&#x6837;&#x6765;&#x4F7F;&#x7528;&#x5B83;&#x4E86;&#x3002;&#x4E0D;&#x8FC7;&#x6709;&#x51E0;&#x70B9;&#x9700;&#x8981;&#x6CE8;&#x610F;&#xFF1A;</p>
+<p>&#x4F7F;&#x7528;android:src&#x5C5E;&#x6027;&#x7684;&#x5730;&#x65B9;&#x9700;&#x8981;&#x66FF;&#x6362;&#x4E3A;app:srcCompat&#x5C5E;&#x6027;<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</div><div class="line">&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;</div><div class="line">    xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;</div><div class="line">    xmlns:tools=&quot;http://schemas.android.com/tools&quot;</div><div class="line">    android:id=&quot;@+id/activity_main&quot;</div><div class="line">    android:layout_width=&quot;match_parent&quot;</div><div class="line">    android:layout_height=&quot;match_parent&quot;</div><div class="line">    android:orientation=&quot;vertical&quot;</div><div class="line">    tools:context=&quot;com.example.wuhao.vectordrawabledemo.MainActivity&quot;&gt;</div><div class="line"></div><div class="line">    &lt;ImageView</div><div class="line">        android:onClick=&quot;anim&quot;</div><div class="line">        android:layout_width=&quot;200dp&quot;</div><div class="line">        android:layout_height=&quot;200dp&quot;</div><div class="line">        app:srcCompat=&quot;@drawable/arrow&quot; /&gt;</div><div class="line"></div><div class="line">&lt;/LinearLayout&gt;</div></pre></td></tr></table></figure></p>
+<p> <img src="/2017/01/03/VectorDrawable&#x7684;&#x5177;&#x4F53;&#x5E94;&#x7528;&#x53CA;&#x517C;&#x5BB9;/VectorDrawable1.png" alt="&#x6548;&#x679C;&#x56FE;"></p>
+<h3 id="3-&#x52A8;&#x6001;VectorDrawable-&#x52A8;&#x753B;"><a href="#3-&#x52A8;&#x6001;VectorDrawable-&#x52A8;&#x753B;" class="headerlink" title="3.&#x52A8;&#x6001;VectorDrawable(&#x52A8;&#x753B;)"></a>3.&#x52A8;&#x6001;VectorDrawable(&#x52A8;&#x753B;)</h3><p>&#x4E0B;&#x9762;&#x7684;&#x4EFB;&#x52A1;&#x5C31;&#x662F;&#x8BA9;VectorDrawable&#x52A8;&#x8D77;&#x6765;<br>&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x5B9A;&#x4E49;&#x4E24;&#x4E2A;&#x5C5E;&#x6027;&#x52A8;&#x753B;&#x7684;xml<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">&lt;!-- res/animator/anim_right.xml --&gt;</div><div class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</div><div class="line">&lt;objectAnimator</div><div class="line">    xmlns:androd=&quot;http://schemas.android.com/apk/res/android&quot;</div><div class="line">    androd:duration=&quot;1000&quot;</div><div class="line">    androd:interpolator=&quot;@android:interpolator/overshoot&quot;</div><div class="line">    androd:propertyName=&quot;translateX&quot;</div><div class="line">    androd:repeatCount=&quot;infinite&quot;</div><div class="line">    androd:repeatMode=&quot;reverse&quot;</div><div class="line">    androd:valueFrom=&quot;0&quot;</div><div class="line">    androd:valueTo=&quot;-10&quot;</div><div class="line">    androd:valueType=&quot;floatType&quot;&gt;</div><div class="line">&lt;/objectAnimator&gt;</div><div class="line">&lt;!-- res/animator/anim_right.xml --&gt;</div><div class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</div><div class="line">&lt;objectAnimator</div><div class="line">    xmlns:androd=&quot;http://schemas.android.com/apk/res/android&quot;</div><div class="line">    androd:duration=&quot;1000&quot;</div><div class="line">    androd:interpolator=&quot;@android:interpolator/overshoot&quot;</div><div class="line">    androd:propertyName=&quot;translateX&quot;</div><div class="line">    androd:repeatCount=&quot;infinite&quot;</div><div class="line">    androd:repeatMode=&quot;reverse&quot;</div><div class="line">    androd:valueFrom=&quot;0&quot;</div><div class="line">    androd:valueTo=&quot;10&quot;</div><div class="line">    androd:valueType=&quot;floatType&quot;&gt;</div><div class="line">&lt;/objectAnimator&gt;</div></pre></td></tr></table></figure></p>
+<p>&#x63A5;&#x7740;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x628A;&#x5C5E;&#x6027;&#x52A8;&#x753B;&#x4E0E;VectorDrawable&#x7C98;&#x5408;&#x8D77;&#x6765;&#xFF0C;<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">&lt;!-- res/drawable/arrow_anim.xml --&gt;</div><div class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</div><div class="line">&lt;animated-vector</div><div class="line">    xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;</div><div class="line">    android:drawable=&quot;@drawable/arrow&quot;&gt;</div><div class="line"></div><div class="line">    &lt;target</div><div class="line">        android:animation=&quot;@animator/anim_left&quot;</div><div class="line">        android:name=&quot;left&quot;/&gt;</div><div class="line"></div><div class="line">    &lt;target</div><div class="line">        android:animation=&quot;@animator/anim_right&quot;</div><div class="line">        android:name=&quot;right&quot;/&gt;</div><div class="line"></div><div class="line">&lt;/animated-vector&gt;</div></pre></td></tr></table></figure></p>
+<p>&#x8FD9;&#x4E2A;xml&#x5C31;&#x662F;vector&#x7684;&#x7C98;&#x5408;&#x5242;&#x4E86;&#xFF0C;&#x4ED6;&#x628A;vector&#x548C;animated&#x8FDE;&#x63A5;&#x4E86;&#x8D77;&#x6765;<br>&#x7528;&#x7684;&#x65F6;&#x5019;&#x5728;layout&#x6587;&#x4EF6;&#x4E2D;&#x76F4;&#x63A5;&#x4F7F;&#x7528;&#x5373;&#x53EF;<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</div><div class="line">&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;</div><div class="line">    xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;</div><div class="line">    xmlns:tools=&quot;http://schemas.android.com/tools&quot;</div><div class="line">    android:id=&quot;@+id/activity_main&quot;</div><div class="line">    android:layout_width=&quot;match_parent&quot;</div><div class="line">    android:layout_height=&quot;match_parent&quot;</div><div class="line">    android:orientation=&quot;vertical&quot;</div><div class="line">    tools:context=&quot;com.example.wuhao.vectordrawabledemo.MainActivity&quot;&gt;</div><div class="line"></div><div class="line">    &lt;ImageView</div><div class="line">        android:onClick=&quot;anim&quot;</div><div class="line">        android:layout_width=&quot;200dp&quot;</div><div class="line">        android:layout_height=&quot;200dp&quot;</div><div class="line">        app:srcCompat=&quot;@drawable/arrow_anim&quot; /&gt;</div><div class="line"></div><div class="line">&lt;/LinearLayout&gt;</div></pre></td></tr></table></figure></p>
+<p>&#x70B9;&#x51FB;&#x4E8B;&#x4EF6;<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&lt;!-- src/main/java/com/example/wuhao/vectordrawabledemo/MainActivity.java --&gt;</div><div class="line">   public void anim(View view) {</div><div class="line">        ImageView imageView = (ImageView) view;</div><div class="line">        Drawable drawable = imageView.getDrawable();</div><div class="line">        if (drawable instanceof Animatable) {</div><div class="line">            ((Animatable) drawable).start();</div><div class="line">        }</div><div class="line">    }</div></pre></td></tr></table></figure></p>
+<p> <img src="/2017/01/03/VectorDrawable&#x7684;&#x5177;&#x4F53;&#x5E94;&#x7528;&#x53CA;&#x517C;&#x5BB9;/VectorDrawable2.gif" alt="&#x6548;&#x679C;&#x56FE;1"></p>
+<h3 id="4-VectorDrawable&#x7684;&#x517C;&#x5BB9;&#x6027;"><a href="#4-VectorDrawable&#x7684;&#x517C;&#x5BB9;&#x6027;" class="headerlink" title="4.VectorDrawable&#x7684;&#x517C;&#x5BB9;&#x6027;"></a>4.VectorDrawable&#x7684;&#x517C;&#x5BB9;&#x6027;</h3><p>&#x5927;&#x90E8;&#x5206;&#x7684;VectorDrawable&#x90FD;&#x53EF;&#x517C;&#x5BB9;&#x5230;3.0&#xFF0C;&#x9664;&#x4E86;Path Morphing-&#x8DEF;&#x5F84;&#x53D8;&#x6362;&#x52A8;&#x753B;&#xFF0C;&#x5728;android-L&#x7248;&#x672C;&#x4EE5;&#x4E0B;&#x65E0;&#x6CD5;&#x4F7F;&#x7528;&#xFF0C;<br>&#x5728;android-L&#x7248;&#x672C;&#x4E0D;&#x80FD;&#x81EA;&#x5B9A;&#x4E49;&#x63D2;&#x503C;&#x5668;&#xFF0C;&#x4E0D;&#x652F;&#x6301;&#x51B2;String.xml&#x4E2D;&#x8BFB;&#x53D6;<pathdata><br>&#x5411;&#x4E0B;&#x517C;&#x5BB9;</pathdata></p>
+<h3 id="5-VectorDrawable&#x7684;&#x4F18;&#x7F3A;&#x70B9;&#xFF0C;&#x53CA;&#x5E94;&#x7528;&#x573A;&#x666F;"><a href="#5-VectorDrawable&#x7684;&#x4F18;&#x7F3A;&#x70B9;&#xFF0C;&#x53CA;&#x5E94;&#x7528;&#x573A;&#x666F;" class="headerlink" title="5.VectorDrawable&#x7684;&#x4F18;&#x7F3A;&#x70B9;&#xFF0C;&#x53CA;&#x5E94;&#x7528;&#x573A;&#x666F;"></a>5.VectorDrawable&#x7684;&#x4F18;&#x7F3A;&#x70B9;&#xFF0C;&#x53CA;&#x5E94;&#x7528;&#x573A;&#x666F;</h3><p>VectorDrawable&#x7684;&#x4F18;&#x70B9;&#x662F;&#x5360;&#x7528;&#x7A7A;&#x95F4;&#x5C0F;&#xFF0C;&#x53D1;&#x5927;&#x4E0D;&#x5931;&#x771F;&#xFF0C;&#x5B9E;&#x73B0;&#x52A8;&#x753B;&#x4E5F;&#x6BD4;&#x8F83;&#x7B80;&#x5355;&#xFF1B;<br>&#x7F3A;&#x70B9;&#x662F;VectorDrawable&#x6E32;&#x67D3;&#x901F;&#x5EA6;&#x6BD4;bitmap&#x8981;&#x6162;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x53EA;&#x80FD;&#x7528;cpu&#x8FDB;&#x884C;&#x8BA1;&#x7B97;&#xFF0C;&#x4E0D;&#x80FD;&#x7528;GPU&#x786C;&#x4EF6;&#x52A0;&#x901F;&#x3002;<br>&#x6240;&#x4EE5;&#x4E00;&#x4E9B;&#x6BD4;&#x8F83;&#x7B80;&#x5355;&#x7684;icon&#x662F;&#x9002;&#x5408;&#x7528;VectorDrawable<br>&#x9879;&#x76EE;&#x5730;&#x5740;&#xFF1A;<a href="https://github.com/xiaomoxifeng/VectorDrawableDemo.git" target="_blank" rel="external">GitHub</a></p>
+
+  </section>
+
+  
+  
+</article>
+
+
+            <footer class="footer">
+
+    <span class="footer__copyright">&copy; 2014-2015. | 由<a href="https://hexo.io/">Hexo</a>强力驱动 | 主题<a href="https://github.com/someus/huno">Huno</a></span>
+    
+</footer>
+        </div>
+    </div>
+
+    <!-- js files -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/scale.fix.js"></script>
+    
+
+    
+
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript"> 
+        $(document).ready(function(){
+            MathJax.Hub.Config({ 
+                tex2jax: {inlineMath: [['[latex]','[/latex]'], ['\\(','\\)']]} 
+            });
+        });
+    </script>
+
+
+    
+
+    <script src="/js/awesome-toc.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.awesome_toc({
+                overlay: true,
+                contentId: "post-content",
+            });
+        });
+    </script>
+
+
+    
+    
+    <!--kill ie6 -->
+<!--[if IE 6]>
+  <script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
+<![endif]-->
+
+</body>
+</html>
